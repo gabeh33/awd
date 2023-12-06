@@ -372,10 +372,8 @@ class Level:
 
         # self.guide.draw(self.display_surface)
         # 879, 641 is the rect pos of the player before jump over fault
-
         # print(f"Distance right: {self.distance_travelled_right}")
         # print(f"position: {self.player.sprite.rect.x}, {self.player.sprite.rect.y}")
-
         if self.player.sprite.rect.y > 700:
             self.player.sprite.rect.x = 879
             self.player.sprite.rect.y = 641
